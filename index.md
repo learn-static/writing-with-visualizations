@@ -3,15 +3,9 @@ title: Lesson Template
 layout: page
 ---
 
-A minimal Jekyll theme with sidebar content nav for creating lesson and workshop websites using Markdown.
+Welcome to the documentation for the *Writing with Visualizations* project template!
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
-
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
+This site contains all instructions students need to follow to investigate historical texts and create an essay for the web.
 
 {% include toc.html %}
 

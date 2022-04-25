@@ -1,8 +1,6 @@
 ---
-section: Customize
-nav_order: 3
-title: Lesson Plan Template
-topics: Learning Objectives; Assignments
+nav_order: 7
+title: Customize Your Essay 
 ---
 
 # LEARNING SEQUENCE: [Title]
