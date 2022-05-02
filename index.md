@@ -5,8 +5,8 @@ layout: page
 
 Welcome to the documentation for the *Writing with Visualizations* project template!
 
-This site contains all instructions students need to follow to investigate historical texts and create an essay for the web.
+Following these instructions
 
-{% include toc.html %}
+This site contains all instructions students need to follow to investigate historical texts and create an essay for the web.
 
 {% include template/credits.html %}
