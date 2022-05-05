@@ -1,5 +1,5 @@
 ---
-section: Digital Humanities
+section: Explore DH Methods
 nav_order: 2
 title: Text Analysis With Voyant
 topics: text analysis; visualization

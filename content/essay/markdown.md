@@ -1,6 +1,6 @@
 ---
-section_id: Write Your Essay
-nav_order: 4
+section: Write Your Essay
+nav_order: 2
 title: Markdown 
 topics: Markdown
 description: >

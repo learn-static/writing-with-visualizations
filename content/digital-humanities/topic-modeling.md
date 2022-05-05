@@ -1,5 +1,5 @@
 ---
-section: Digital Humanities
+section: Explore DH Methods
 nav_order: 3
 title: Topic Modeling
 topics:
@@ -69,7 +69,7 @@ Markdown is very similar to the way you write and format content in Microsoft Wo
 ### Headings
 
 Headings are used to title a section in your essay, and are indicated with one or more pound signs (`#`) in front of them.
-One `#` indicates the largest heading: Heading One. For example:
+One `#` indicates the largest heading: heading one. For example:
 
 `# Heading One` in your `essay-01.md` will look like:
 

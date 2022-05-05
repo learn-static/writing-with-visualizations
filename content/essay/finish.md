@@ -1,10 +1,9 @@
 ---
 section: Write Your Essay
-nav_order: 4
+nav_order: 5
 title: Finishing Your Essay
 topics:
 ---
-
 
 ---
 

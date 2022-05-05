@@ -1,6 +1,8 @@
 ---
-nav_order: 7
-title: Customize Your Essay 
+section_id: For Instructors
+nav_order: 6
+title: Learning Sequence Details
+topics:
 ---
 
 # LEARNING SEQUENCE: [Writing with Visualizations]

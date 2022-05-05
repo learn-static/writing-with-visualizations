@@ -1,6 +1,6 @@
 ---
 section: Write Your Essay
-nav_order: 3
+nav_order: 4
 title: Customize Your Essay
 topics: 
 ---

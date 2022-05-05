@@ -1,5 +1,5 @@
 ---
-section_id: Digital Humanities
+section_id: Explore DH Methods
 nav_order: 3
 title: Intro to Digital Humanities
 topics: Digital Humanities (DH); Digital History; Text Analysis; Topic Modeling

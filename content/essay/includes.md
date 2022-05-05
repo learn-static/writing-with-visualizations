@@ -1,6 +1,6 @@
 ---
 section: Write Your Essay
-nav_order: 2
+nav_order: 3
 title: Including Images in Your Essay
 topics: Markdown; Liquid; Includes
 ---

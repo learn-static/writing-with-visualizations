@@ -1,5 +1,6 @@
 ---
-nav_order: 5
+section: For Instructors
+nav_order: 3
 title: Reference & Resources
 ---
 
