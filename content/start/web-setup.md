@@ -2,29 +2,28 @@
 section: Get Started
 nav_order: 2
 title: Website Setup
-topics: GitHub; GitHub Pages; Websites
 ---
 
 ---
 
-**Goals**: Copy a GitHub repository template; edit the repository's configuration file; turn on GitHub Pages
+**Goals**: Copy a GitHub repository template; Edit the repository's configuration file; Turn on GitHub Pages
 
 **Estimated Time to Complete**: 30 minutes
 
 ---
 
-In the first Lab for this course you created a GitHub account and practiced creating a repository. Now, you'll be working on GitHub to set up your project website. 
+Now that you've created a GitHub account and repository, you'll be working on GitHub to set up your project website. 
 
 ## Step 1. Log in to GitHub
 
-1. Go to <https://github.com> and sign in.
+1. Go to <https://github.com>{:target='_blank' rel='noopener'} and sign in.
 
 ## Step 2. Copy the project template repository
 
 Remember, a GitHub repository is a folder that stores a project's files and keeps track of changes to those files over time.
-Let's copy our digital history project template repository to your GitHub account so you can start editing it.
+Let's copy our "Writing with Visualizations" project template repository to your GitHub account so you can start editing it.
 
-1. Go to the [Text Analysis Project Template](https://github.com/learn-static/text-analysis){:target="_blank" rel="noopener"} repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area). Note that the "Use This Template" button only appears if you're logged into GitHub!
+1. Go to the [Writing with Visualizations](https://github.com/learn-static/text-analysis){:target="_blank" rel="noopener"} repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area). Note that the "Use This Template" button only appears if you're logged into GitHub!
 2. This brings you to a "Create a new repository" form. Follow these steps:
     1. **Repository name**: Use a lowercase name without spaces or odd characters (no `$`, `#`, `@`, `?`, `!`, etc.). Hyphens (`-`) and underscores (`_`) are okay to use. Keep in mind that this repository name will become part of your project site's URL, so think through how it will look as a link!
     2. In the **Description** text box, add a very brief description of your project, something like: `My digital history project for HIST 320`.
@@ -43,14 +42,14 @@ Let's copy our digital history project template repository to your GitHub accoun
 
 The `_config.yml` file is used to configure the core features of your project site (things like the site's title, author, and tagline).
 The configuration options are made up of key-value pairs, separated by a colon (`:`), and written in a format called [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml). 
-For example, below is the **key** "title", followed by its **value**, "Analyzing Political Text of The 20th Century":
+For example, below is the **key**, "title", followed by its **value**, "Analyzing Political Text of The 20th Century":
 
 ```
 # title of site appears in banner
 title: Analyzing Political Text of The 20th Century
 ```
 
-Above "title," the line of text that starts with a pound sign (`#`) is a *comment*.
+Above "title," the line of text that starts with a pound sign (`#`) is a **comment**.
 The comment is a note to you, the website creator, to tell you what value you should add to the title. 
 The computer ignores the comment but processes the title key and value.
 Any line in this `_config.yml` file that starts with a `#` is a comment.
@@ -80,12 +79,12 @@ For example, the default placeholder value is this:
 source-code: https://github.com/learn-static/text-analysis
 ```
 
-And will change to reflect your own repository's URL after you paste in your repository's URL:
+And should be replaced with your own repository's URL:
 ```
 source-code: https://github.com/my-github-name/my-repository-name
 ```
 
-Now move on to the three values *below* SITE SETTINGS, and fill them out: 
+Now move on to the three values *below* `# SITE SETTINGS`, and fill them out: 
 
 ### title: 
 
@@ -114,7 +113,7 @@ Proceed to the next step to save your changes.
 
 ## Step 4. Commit changes to _config.yml
 1. To commit the changes you just made to your `_config.yml` file, scroll to the bottom of the page where you made your edits. You'll see a box titled "Commit changes."
-2. In the text box directly underneath "Commit changes," type a short message that describes your edits, such as `update site settings`.
+2. In the text box directly underneath "Commit changes," type a short message that describes your edits, such as "update site settings".
 3. Skip the option to add an extended description to the commit, and keep the box checked next to "Commit directly to the main branch".
 4. Click on the green "Commit changes" button. This will save your changes and take you out of the "edit" mode.
 5. Go back to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
