@@ -120,7 +120,7 @@ Proceed to the next step to save your changes.
 
 **Need a visual? Follow along with the video below:**
 
-{% include video-embed.html youtubeid="T9vwn5Pb7Ac" caption="Edit a Configuration File" %}
+{% include video-embed.html youtubeid="Gq4vS9q13mc" caption="Edit a Configuration File" %}
 
 {:#gh-pages}
 ## Step 5. Activate GitHub Pages
@@ -155,13 +155,11 @@ If after five minutes it's still not live, make sure you've followed the steps a
 
 **Need a visual? Follow along with the video below:**
 
-{% include video-embed.html youtubeid="22-iihbu12c" caption="Turn on GitHub Pages" %}
+{% include video-embed.html youtubeid="d2I6Z3u8_Tc" caption="Turn on GitHub Pages" %}
 
-## Step 7. Show your work
+## Step 7. Celebrate!
 
 Congratulations! 
 Today you created a website. 
 Take some time to click around your new site and explore the pages.
-Next week we'll start adding content to the site and visualizing some topic modeling done with the Party Platforms and State of the Union Addresses.
-
-When you're finished exploring, **submit a link to the website you just created** to this week's Lab Discussion on Canvas.
+In the next lesson we'll start adding content to the site and visualizing some topic modeling done with the Party Platforms and State of the Union Addresses.
