@@ -1,6 +1,6 @@
 ---
 section_id: Write Your Essay
-nav_order: 4
+nav_order: 2
 title: Getting Started
 ---
 
