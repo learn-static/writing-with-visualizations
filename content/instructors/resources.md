@@ -4,6 +4,8 @@ nav_order: 3
 title: Reference & Resources
 ---
 
+1. If you want to, you can draft your essay using a word processor like Microsoft Word, Libre Office, or Google Docs, and paste the text from that document into your `essay-01.md` file. Do note that you will need to do some work *after* you paste it to make sure that your visualizations are added, that you've translated your word processor's styling (**bold**, *italics*, hyperlinks, bullet points) into Markdown following the instructions from this week's lab and last week's lab, and that you've added your **citations** in Markdown following the [instructions above](#citations).
+
 To learn about using Lesson Template, the content pages of this demo provide documentation and examples (also check the [README](https://github.com/learn-static/lesson-template/blob/main/README.md)).
 
 Workshop sites using this template:
