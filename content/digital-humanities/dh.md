@@ -2,12 +2,11 @@
 section_id: Explore DH Methods
 nav_order: 3
 title: Intro to Digital Humanities
-topics: Digital Humanities (DH); Digital History; Text Analysis; Topic Modeling
 ---
 
 ---
 
-**Goals**: Explore examples of Digital Humanities projects; gain familiarity with concepts of Digital Humanities/Digital History, text as data, text analysis, and topic modeling
+**Goals**: Explore examples of Digital Humanities projects; Gain familiarity with concepts of Digital Humanities/Digital History, text as data, text analysis, and topic modeling
 
 **Estimated Time to Complete**: 45 minutes
 
@@ -21,14 +20,16 @@ At its most general, Digital Humanities can be defined as the process of utilizi
 Digital History is this process applied specifically to History. 
 
 This definition is necessarily vague, as digital research in History can range from asking traditional humanities-oriented questions about digital media and computing technologies, to using computational tools and methods to investigate historical data.
-(To show just how wide-ranging definitions of Digital Humanities can be, follow this link and refresh the page to view the creative and varying definitions that Digital Humanists have come up with to define what they do: <https://whatisdigitalhumanities.com/>{:target='_blank' rel='noopener'})
 
-Because of this, Digital Humanities projects can take a variety of forms.
-Take a few minutes to explore two or three Digital Humanities projects recently nominated for the 2020 Digital Humanities Awards: <http://dhawards.org/dhawards2020/results/>{:target='_blank' rel='noopener'}.
-Scroll down the page to check out the different categories of projects. 
-Which categories appeal the most to you?
+Because of these differing definitions, Digital Humanities projects can take a variety of forms.
 
-Most importantly, when we engage in Digital Humanities and Digital History projects, it is not to *replace* traditional humanities research methods.
+- To see just how wide-ranging definitions of Digital Humanities can be, follow this link and refresh the page to view the creative and varying definitions that Digital Humanists have come up with to define what they do: <https://whatisdigitalhumanities.com/>{:target='_blank' rel='noopener'}.
+
+- Additionally, take a few minutes to explore two or three Digital Humanities projects recently nominated for the 2020 Digital Humanities Awards: <http://dhawards.org/dhawards2020/results/>{:target='_blank' rel='noopener'}.
+    - Scroll down the page to check out the different categories of projects. 
+    - Which categories appeal the most to you?
+
+Most importantly, when we engage in Digital Humanities and Digital History research projects, it is not to *replace* traditional humanities research methods.
 Rather, the digital tools we use can *extend* the possibilities of deep thinking and criticism that characterize the humanities.
 
 In the case of this class, we'll be extending our understanding of 20th-century American history by performing computational analyses on--and visualizing patterns in--historical texts (20th-century State of the Union Addresses and Party Platform texts, to be exact), and communicating our findings via the digital medium of a web essay. 
@@ -44,7 +45,9 @@ And the answer is we don't necessarily *need* to do it--it's true that you might
 
 However, we *are* going to make use of Digital History methods in this course for the following reasons:
 1. To introduce you to methods of gaining information from--and determining patterns across--large collections of primary resources when you don't have time to read them all. Consider: over the course of the 20th century there are a total of 103 State of the Union Addresses and 52 Republican/Democrat Party Platform statements! Of course, you'll want to read some of them, but taken as a whole the data outputs and visualizations can become another resource for you along with the primary and secondary sources you gather as you form arguments and opinions about the events and people that shaped 20th-century American history.
+
 2. To introduce you to the experience of writing for the web in a professional way. What you do with your multimedia essay after the course ends is up to you--but even if you choose never to make your essay publicly findable or even choose to delete it, during this class you will gain the experience of writing an essay in a space other than a Microsoft Word Document and integrating resources such as supporting images and documents into the text, an activity that can open up possibilities for creativity that aren't always present in a typical term paper.
+
 3. To introduce some real-world technical concepts and skills in a fun, low-stakes way. In this class we'll be utilizing the popular web platform GitHub, where developers all over the world collaborate on projects and code, to store our files and create our websites. Rest assured, we will be doing ***no coding*** in this course! But you will walk away with some very basic real-world skills (i.e. familiarity with spreadsheets, Markdown, and GitHub) that just might come in handy some day in your future.
 
 In sum, the best advice I can give you is to approach this project with an open mind.
@@ -66,7 +69,8 @@ Read through the section below to gain an overview of each concept before we sta
 
 To undertake the text analysis we'll be doing in this course, we need to think of our texts as data, or as information that can be separated, organized, and analyzed. 
 In the case of this project, we have two "types" of historical political texts: 20th-century State of the Union Addresses and Party Platforms.
-Each "type" of text is considered a "body," or "corpus" (plural: "corpora"), which can then be split into smaller "documents," or individual texts within the corpus.
+Each "type" of text is considered a "body," or "corpus" (plural: "corpora"), which can be split into smaller "documents," or individual texts within the corpus.
+
 In the case of our research for this course, we're delineating each individual address as a separate document within the State of the Union corpus, and each Party Platform as a separate document within the Party Platform corpus.
 
 We've already separated the corpora into documents along these lines.
@@ -119,14 +123,16 @@ Or as a word cloud:
 {% include figure.html img="cirrus.jpg" alt="voyant word cloud visualization" caption="A Word Cloud Produced Using Voyant Tools" %}
 
 Text analysis research is often called **distant reading** by Digital Humanists, because it uses computational methods to "read" (or, more accurately, extract information and visualize patterns across) large corpora. 
+
 In theory this process provides scholars with insight into a corpus that would be difficult to reach otherwise, either because they cannot read all the documents in the corpus or because, even if they can read it, they might miss nuanced themes or topics that are only revealed via computational analysis. 
-In reality, distant reading is most beneficial if you have already read *some* of your corpus and have a firm understanding of it, and can interpret the results of your text analysis not as the end-goal of your research, but as supporting evidence to be used in tandem with other primary and secondary sources.
-*Optimally, the text analysis you do will spark new thoughts and questions that you can put into dialogue with your other methods of traditional humanities research.*
+
+Distant reading is most beneficial if you have already read *some* of your corpus and have a firm understanding of it, and can interpret the results of your text analysis not as the end-goal of your research, but as supporting evidence to be used in tandem with other primary and secondary sources.
+
+***Optimally, the text analysis you do will spark new thoughts and questions that you can put into dialogue with your other methods of traditional humanities research.***
 
 In this class, we'll be using [Voyant Tools](https://voyant-tools.org/){:target='_blank' rel='noopener'} to analyze our corpora of State of the Union and Party Platform texts.
 
-We'll provide instructions on how to upload our own data to Voyant Tools in a later lesson.
-For now, if you'd like to explore Voyant, click on the Voyant Tools link above, then click the "Open" button on the Voyant Tools home page and select "Shakespeare's Plays" or "Austin's Novel's" from the "Choose a corpus" dropdown, then click "Open."
+If you'd like to explore Voyant, click on the Voyant Tools link above, then click the "Open" button on the Voyant Tools home page and select "Shakespeare's Plays" or "Austin's Novel's" from the "Choose a corpus" dropdown, then click "Open."
 Voyant will automatically create a number of visualizations for you to explore.
 
 {:modeling}
@@ -175,7 +181,7 @@ Let's take a look:
 
 {% include figure.html img="graph.png" alt="line graph visualizing Commercial America topic" caption="Line Graph Visualizing Commercial America Topic" %}
 
-Anything surprise about this?
+Anything surprising about this?
 Could you use it as supporting evidence for your essay's argument?
 Or do you need to go back and read some of the State of the Union Addresses or other primary or secondary sources to get a better understanding of why everyone was talking about this topic in the first half of the century?
 Either of these are valid responses.
@@ -184,7 +190,8 @@ This type of visualization and topic analysis will be a component of your multim
 Sometimes topics are easy to identify (for example the cluster of words "navy, ship, captain" all fit into a coherent theme). Other times they're more ambiguous (the cluster of words "navy, children, lizards" is less easy to place). 
 Just as with text analysis, the purpose of topic modeling is usually to gain insight into a corpus of text that is too large to read.
 The results of your topic modeling may confirm your suspicions about the texts, or yield surprising outputs that lead to further research.
-*The topics that are easy to identify may not surprise you, but the topics that you cannot easily fit into a theme may give you pause and prompt you to ask additional questions about your data.*
+
+***The topics that are easy to identify may not surprise you, but the topics that you cannot easily fit into a theme may give you pause and prompt you to ask additional questions about your data.***
 
 Topic modeling works best when you're using it to interpret large bodies of text.
 A very small corpus is unlikely to yield many useful or specific topics; larger corpora (about the size of the corpora we're using in this class, or larger) usually generate better results.
@@ -194,7 +201,6 @@ There are various tools that can be used to employ topic modeling, but for this 
 
 **Note** that you won't actually need to use the jsLDA tool for this course unless you want to.
 Your instructors have already performed the topic modeling for the State of the Union and Party Platform corpora, so all that remains is for you to interpret and visualize their topic outputs (instructions for doing this will be provided in a later week).
-However, we will provide steps you can follow should you want to experiment with uploading documents to jsLDA and produce topics yourself.
 
 ---
 
@@ -204,23 +210,6 @@ Congratulations!
 You made it through the technical overview for this course.
 We know some concepts might not make complete sense yet, but that's okay!
 You will become more comfortable with these methods as we start to get some hands-on experience with them in the coming weeks.
-If you have any questions or concerns at this point, please reach out to Professor Wikle and/or Professor Sowards.
-Otherwise, take time to complete the short activity below and post your response in the Discussion section for the Lab this week.
-
----
-
-## Activity
-
-The multimedia essay that you create for this class will look similar to this example: <https://www.lib.uidaho.edu/digital/1918flu/about.html>{:target='_blank' rel='noopener'}, and contain embedded supporting information such as images, documents, and graphs like the one above.
-
-Communicating research and data via the web--as you will do with this essay--is an important aspect of Digital Humanities/Digital History projects, and can take various forms depending on the project.
-Keeping this aspect of communication in mind, and thinking ahead to your own multimedia essay, scroll through the [Digital Humanities Awards 2020](http://dhawards.org/dhawards2020/results/){:target='_blank' rel='noopener'} page and peruse three or four projects (any project on the page is fair game, no matter the category it falls under). 
-You're also welcome to explore the award winners for years other than 2020 to see additional examples.
-Finally, pick one of the projects you've looked at and answer the following three questions in a post on this week's Discussion on Canvas.
-
-1. Provide the title of the project you chose, and include a link to it.
-2. What is the project communicating? (Is it telling a story, reporting information, asking users to watch, listen, or interact with it?)
-3. Does it communicate its message effectively? (Consider factors such as the text content on the site, the data it is utilizing or visualizing, and the site structure itself--is it intuitive to navigate between pages?), If so, what makes it effective? If not, what makes it ineffective? 
 
 ---
 

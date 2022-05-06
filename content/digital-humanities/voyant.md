@@ -2,7 +2,6 @@
 section: Explore DH Methods
 nav_order: 2
 title: Text Analysis With Voyant
-topics: text analysis; visualization
 ---
 
 ---
@@ -23,41 +22,19 @@ Before we begin, however, a note on our data:
 
 As you explore the visualizations in this activity, you might find that you want to read a president's State of the Union Address or a candidate's Party Platform in full.
 The 20th-century text we are working with was taken from UC Santa Barbara's [American Presidency Project](https://www.presidency.ucsb.edu/documents){:target='_blank' rel='noopener'} site.
-To quickly access the full text of an Address or Platform statement on the American Presidency Project site, use this table: <https://learn-static.github.io/text-analysis/data.html> to search for the president/document in question, and click the corresponding link in the table to view the full text.
+To quickly access the full text of an Address or Platform statement on the American Presidency Project site, use this table: <https://learn-static.github.io/text-analysis/data.html>{:target='_blank' rel='noopener'} to search for the president/document in question, and click the corresponding link in the table to view the full text.
 
 ## Step 1. Open a Corpus in Voyant
 
 To walk through the steps in this tutorial, let's use the State of the Union Addresses.
-Click on the green button below: 
+
+To open the 20th-century State of the Union Addresses in Voyant in a new browser tab, click on the green button below: 
 
 <div class="text-center" markdown="1">
 <div class="mx-1 pt-3" markdown="1">
 {% include button.html text="20th-Century State of the Union Addresses" link="https://voyant-tools.org/?corpus=3331b9ec3186b714ca53835d5b3ed722" color="success" %}
 </div>
 </div>
-
-Alternately, you can choose a corpus to view in Voyant from those listed below.
-When you've decided on one, click on the green "View in Voyant Tools" button to the right of it.
-This will take you to a new browser tab to explore that corpus in Voyant.
-
-{% assign topicdocs = site.data.topic-data %}
-
-<table class="table table-striped">
-    <thead>
-       <tr>
-          <th>Description</th>
-          <th>Voyant Link</th>
-       </tr>
-    </thead>
-    <tbody>
-    {%- for t in topicdocs -%}
-    <tr>
-       <td class="topic">{{ t.description }}</td>
-       <td class="words"><a class="btn btn-outline-success" href="{{ t.voyant-link }}" target="_blank" rel="noopener">View in Voyant Tools</a></td>
-    </tr>
-    {%- endfor -%}
-    </tbody>
-</table>
 
 You've now opened a set of documents in the Voyant Tools platform. 
 Your webpage will be broken into five different visualizations, looking something like this:
@@ -67,7 +44,9 @@ Your webpage will be broken into five different visualizations, looking somethin
 ## Step 2. What Am I Looking At?
 
 Your instructors have separated each Address in our corpus of State of the Union Addresses into a separate document, then uploaded all of those documents at once into Voyant.
+
 For example, Woodrow Wilson's Address from 1917 is in a file titled 1917-Woodrow-Wilson, the text from Richard Nixon's 1970 Address is in a file titled 1970-Richard-M-Nixon, etc. 
+
 Once these files are uploaded to Voyant, Voyant processes and visualizes them in several different ways, so you'll see these file titles in the Voyant interface.
 Below, we'll walk through four different visualizations.
 
