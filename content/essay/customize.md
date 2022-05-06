@@ -5,9 +5,9 @@ title: Customize Your Essay
 ---
 ---
 
-**Goals**: Make optional edits to your essay and website
+**Goals**: Make optional edits to your website
 
-**Estimated Time to Complete**: 30 minutes
+**Estimated Time to Complete**: 20 minutes
 
 ---
 
@@ -26,86 +26,31 @@ title: Customize Your Essay
 
 ---
 
-{:#title}
-## Step 3. Make edits to your site title and tagline
+## Step 3. Add an introduction to your website's homepage
 
-**This step is NOT required!**
+1. From your repository's homepage, locate and click on the "pages" folder.
 
-You are welcome to edit your site title and tagline at any point.
-To do this, follow the instructions below.
-If you're happy with your site title and tagline, skip to the next step.
-
-1. On the homepage of your GitHub repository, locate the file titled `_config.yml`. Click on this file to open it.
-2. In the top right corner of the `_config.yml` file, locate and click on the pencil icon to enter GitHub's editing mode.
-
-The `_config.yml` file is used to configure the core features of your project site (things like the site's title, author, and tagline).
-The configuration options are made up of key-value pairs, separated by a colon (`:`), and written in a format called [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml). 
-For example, below is the **key** "title", followed by its **value**, "Analyzing Political Text of The 20th Century":
-
-```
-# title of site appears in banner
-title: Analyzing Political Text of The 20th Century
-```
-
-Above "title," the line of text that starts with a pound sign (`#`) is a *comment*.
-The comment is a note to you, the website creator, to tell you what value you should add to the title. 
-The computer ignores the comment but processes the title key and value.
-Any line in this `_config.yml` file that starts with a `#` is a comment.
-
-You've already edited the following values, but you can edit them again if you're not happy with the title, tagline, or author name you chose: 
-
-#### title: 
-
-- `title` is the title of your digital project. This will appear as the title on your website's home page, and on every other page's header and footer. Change the words `Analyzing Political Text of The 20th Century` to a title of your choice.
-```
-title: Analyzing Political Text of The 20th Century
-```
-
-#### tagline: 
-
-- `tagline` is an *optional* descriptive subtitle for the digital project. This will appear underneath the title on your site's home page and on every other page's header. Replace the words `A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho` with a tagline of your choice.
-```
-tagline: A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho
-```
-
-#### author: 
-
-- `author` is you! The creator of the digital project. Use your GitHub username or your name. This will only appear in the site's meta tags and won't be visible on the site itself. Change the name `collectionbuilder` to your own name or username.
-```
-author: collectionbuilder
-```
-
-### Commit your changes to _config.yml
-
-1. To commit the changes you just made to your `_config.yml` file, scroll to the bottom of the page where you made your edits. You'll see a box titled "Commit changes."
-2. In the text box directly underneath "Commit changes," type a short message that describes your edits, such as `update site settings`.
-3. Skip the option to add an extended description to the commit, and keep the box checked next to "Commit directly to the main branch".
-4. Click on the green "Commit changes" button. This will save your changes and take you out of the "edit" mode.
-5. Go back to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
-
----
-
-{:#homepage}
-## Step 4. Add an introduction to your website's homepage
-
-1. From your repository's homepage, locate and click on the "pages" folder.  
 2. Inside the "pages" folder, click on the file titled "index.md." Then select the pencil button in the top right corner of the `index.md` file to open editing mode.
+
 3. `index.md` contains the text content written on the homepage of your project website! It's written in markdown, just like your essay (notice that the title is a heading 1?). This is an opportunity for you to add your own introduction to your site. It doesn't need to be long, think of it as a brief welcome to the imagined future users of your site, and a short description of what your research is about.
+
 4. When you're ready to write, delete the four paragraphs of stock content (starting with `This is the project site for the HIST 320...` and ending with `images into your essays`). Delete these four paragraphs, and add your own introduction in their place.
+
 5. Replace the heading `# Digital History Project` with your own title for your homepage.
-6. Remember **DO NOT** alter the frontmatter that exists at the very top of the page (lines 1-6). Leave the frontmatter exactly as it is, otherwise your site will not work correctly.
+
+6. Remember **DO NOT** alter the front matter that exists at the very top of the page (lines 1-6). Leave the front matter exactly as it is, otherwise your site will not work correctly.
+
 7. When you're happy with your title and introduction, commit your changes: add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
+
 8. Go back to repository's homepage (if you ever are confused about how to get back to the homepage, click on the "<> Code" tab in the top left section of the screen).
-9. Head over to where you opened your website in a different tab or window, and make sure you've navigated to your website's Home page.
-10. Wait a minute or two, then refresh your website's homepage.
-11. Once you refresh your site, you should see your new introduction.
-12. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
+
+9. Head over to where you opened your website in a different tab or window, and make sure you've navigated to your website's home page.
+
+10. Wait a minute or two, then refresh your website's homepage. Once you refresh your site, you should see your new introduction. The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
 
 ---
 
-## Step 5. Add a custom image to your website's homepage
-
-**This step is NOT required!**
+## Step 4. Add a custom image to your website's homepage
 
 You're welcome to change the image that is featured on the homepage of your website.
 
@@ -124,16 +69,23 @@ Some options to find public domain include:
 When you've found the image you want to use, upload it to your repository's "objects" folder following these steps:
 
 1. In your repository, locate and click on the "**objects**" folder (directly above the "pages" folder). There are already some files in this folder, and we're going to add your new file to them.
+
 2. Towards the top right of the page (where the pencil button would normally be) locate the "Add file" button and click on it. This is a dropdown button that gives you two options: "Create new file" and "Upload files." Select "**Upload files**."
+
 3. This brings you to a page that says "Drag files here to add them to your repository or choose your files." Click on the "choose your files" link. This will open up your File Explorer application (on a Windows machine) or your Finder application (on a Mac).
+
 4. In File Explorer/Finder, locate and select the image that you've decided to use.
+
 5. Once you've selected the correct file, click the "Open" button in the bottom right of your File Explorer/Finder window. This will automatically trigger GitHub to upload the file.
+
 6. In order to finalize the upload, you'll need to commit the change, so add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
+
 7. After you commit the file, GitHub will automatically redirect you to the repository's homepage. If you want to you can look inside your "**objects**" folder again to see the file you just uploaded, but this isn't necessary.
 
 ### Set up your image to display on the homepage
 
 1. In your repository, locate and click on the "**_data**" folder (the folder at the very top of your repository!). Inside the _data folder, locate the `theme.yml` file and click on it. Then select the pencil button in the top right corner of the `theme.yml` file to open editing mode.
+
 2. This file is written in [YAML](https://collectionbuilder.github.io/cb-docs/docs/glossary/#yaml), just like your `_config.yml` is! Remember, YAML is a data type made up of key-value pairs, separated by a colon (`:`). You will also see comments in this file (indicated by a pound sign (`#`) at the beginning of a line). Locate the comment that reads `# HOME PAGE`.
 
 #### featured-image:
@@ -159,50 +111,3 @@ When you've found the image you want to use, upload it to your repository's "obj
 **NOTE**: It's entirely possible that you won't like the edits you made to the padding or the image position! That's okay! Just go back into the theme.yml file and edit them again. If you find that you do not like the image that you added, feel free to use the default image that came with the site. Simply use the value `feature-image.jpg` for the `featured-image` key.
 
 ---
-
-{:#block-quote}
-## Step 6. BONUS: Add a block quote to your essay
-
-**This step is NOT required!**
-
-As you are writing your final essay, you may come across a quote that you'd like to visually highlight.
-Follow the steps below to add a "block quote" to your Final Essay.
-
-- Copy *all* of the code below:
-
-```
-<blockquote class="blockquote pt-3 pb-5" style="font-size: 1.75rem; margin-left: auto; margin-right: auto; max-width: 650px;">
-  <p class="mb-0">I guess what everyone wants more than anything else is to be loved. And to know that you loved me for my singing is too much for me. Forgive me if I don't have all the words. Maybe I can sing it and you'll understand.</p>
-  <footer class="blockquote-footer text-right">Ella Fitzgerald, <cite title="Source Title"><a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">Quotes</a></cite></footer>
-</blockquote>
-```
-
-- Navigate to your `essay-02.md` file (inside your pages folder in your repository), click the pencil button to enter editing mode, and paste this code into your essay. Location doesn't matter, just paste it somewhere that will make sense with the surrounding essay text. 
-- Now you'll need to change three values in the code you just pasted:
-
-#### Quote
-- Change the value of the quote by replacing `I guess what everyone wants more than anything else is to be loved. And to know that you loved me for my singing is too much for me. Forgive me if I don't have all the words. Maybe I can sing it and you'll understand.` with a new quote of your choosing.
-
-#### Author
-- Change the value of the person who said the quote by replacing `Ella Fitzgerald` with the person who said the quote you just added.
-
-#### Source link
-- Change the value of the link to the quote's source by replacing `http://www.ellafitzgerald.com/about/quotes` with the proper link.
-- **If your source does not have a link**, delete these two values: `<a href="http://www.ellafitzgerald.com/about/quotes" target="_blank" rel="noopener">` and `</a>`, but leave the word "Quotes"
-
-#### Source title
-
-- Finally, change the word `Quotes` to the title of the source where you found your quote (this would be the title of a book, article, pamphlet, etc.).
-
-### Commit your changes:
-- Once you've updated all the values for your block quote, add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button.
-- Head over to where you opened your website in a different tab or window, and use the navigation menu to switch back to the "Final Essay" page.
-- Wait a minute or two, then refresh the web page.
-- Once you refresh your site, you should see the block quote appear in your essay.
-- The updates may take a few seconds to a few minutes to appear, so hold tight and keep refreshing if you don't see them right away.
-
----
-
-## Step 7. Finishing up
-
-Head over to this week's Lab Discussion to post a link to your project site and answer a question about the work you completed in this Lab.
