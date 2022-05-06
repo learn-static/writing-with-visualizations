@@ -1,11 +1,11 @@
 ---
 section: Write Your Essay
-nav_order: 5
-title: Customize Your Essay
+nav_order: 6
+title: Customizing Your Website
 ---
 ---
 
-**Goals**: Make optional edits to your website
+**Goals**: Customize your website
 
 **Estimated Time to Complete**: 20 minutes
 

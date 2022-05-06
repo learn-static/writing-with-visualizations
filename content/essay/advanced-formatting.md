@@ -1,7 +1,7 @@
 ---
 section: Write Your Essay
-nav_order: 3
-title: Advanced Formatting
+nav_order: 4
+title: Formatting with Markdown
 ---
 
 ---

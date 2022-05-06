@@ -1,7 +1,7 @@
 ---
 section: Write Your Essay
-nav_order: 4
-title: Including Images in Your Essay
+nav_order: 5
+title: Including Primary Sources
 ---
 
 ---

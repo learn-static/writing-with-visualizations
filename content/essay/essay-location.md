@@ -1,7 +1,7 @@
 ---
-section_id: Write Your Essay
+section: Write Your Essay
 nav_order: 2
-title: Essay Location
+title: Locating the Essay
 ---
 
 ---

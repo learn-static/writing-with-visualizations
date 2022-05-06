@@ -1,7 +1,7 @@
 ---
 section: Write Your Essay
-nav_order: 2
-title: Markdown
+nav_order: 3
+title: Writing in Markdown
 ---
 
 ---

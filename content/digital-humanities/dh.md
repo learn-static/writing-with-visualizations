@@ -1,6 +1,6 @@
 ---
-section_id: Explore DH Methods
-nav_order: 3
+section: Explore DH Methods
+nav_order: 1
 title: Intro to Digital Humanities
 ---
 
