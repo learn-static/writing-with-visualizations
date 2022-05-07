@@ -6,7 +6,7 @@ title: Text Analysis With Voyant
 
 ---
 
-**Goals**: Explore at least two corpora of text in Voyant; use the Cirrus, Trends, and Context visualizations to make some observations about each corpus
+**Goals**: Explore at least two corpora of text in Voyant; Use the Cirrus, Trends, and Context visualizations to make some observations about each corpus
 
 **Estimated Time to Complete**: 30 minutes
 

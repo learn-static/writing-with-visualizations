@@ -1,8 +1,7 @@
 ---
-section_id: For Instructors
-nav_order: 6
-title: Learning Sequence Details
-topics:
+section: For Instructors
+nav_order: 2
+title: Lesson Plan
 ---
 
 # LEARNING SEQUENCE: [Writing with Visualizations]

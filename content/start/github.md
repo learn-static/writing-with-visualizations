@@ -8,7 +8,7 @@ title: Intro to GitHub
 
 **Goals**: Create a GitHub account; Create and edit a GitHub repository
 
-**Estimated Time to Complete**: 45 minutes
+**Estimated Time to Complete**: 30 minutes
 
 ---
 

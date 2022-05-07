@@ -1,8 +1,7 @@
 ---
 section: For Instructors
-nav_order: 2
+nav_order: 3
 title: Multimedia Essay Assignment
-topics:
 ---
 
 ## Example Assignment: Multimedia Essay(s)

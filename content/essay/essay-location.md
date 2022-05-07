@@ -1,12 +1,12 @@
 ---
 section: Write Your Essay
 nav_order: 2
-title: Locating the Essay
+title: Locating Your Essay
 ---
 
 ---
 
-**Goals**: Introduce the essay web page
+**Goals**: Navigate the essay web page
 
 **Estimated Time to Complete**: 10 minutes
 
