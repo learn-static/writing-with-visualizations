@@ -5,7 +5,7 @@ title: Customizing Your Website
 ---
 ---
 
-**Goals**: Customize your website home page
+**Goals**: Customize the website's home page
 
 **Estimated Time to Complete**: 20 minutes
 

@@ -11,4 +11,6 @@ This site contains instructions for investigating historical texts with Digital 
 
 Information for instructors wishing to incorporate this project into a classroom or workshop should start with the [For Instructors](/content/instructors/lesson-plan.html) section of the site.
 
+{% include toc.html %}
+
 {% include template/credits.html %}

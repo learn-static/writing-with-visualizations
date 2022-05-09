@@ -8,7 +8,7 @@ title: Intro to Digital Humanities
 
 **Goals**: Explore examples of Digital Humanities projects; Gain familiarity with concepts of Digital Humanities/Digital History, text as data, text analysis, and topic modeling
 
-**Estimated Time to Complete**: 45 minutes
+**Estimated Time to Complete**: 30 minutes
 
 ---
 

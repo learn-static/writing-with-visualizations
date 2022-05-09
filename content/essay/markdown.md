@@ -8,6 +8,8 @@ title: Writing in Markdown
 
 **Goals**: Add text to essay
 
+**Prerequisites**: [Learn Static Markdown Foundations Module](https://github.com/learn-static/foundations-2-markdown/blob/main/intro-markdown.md){:target="_blank" rel="noopener"}
+
 **Estimated Time to Complete**: 30 minutes
 
 ---

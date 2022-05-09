@@ -1,6 +1,6 @@
 ---
 section: Get Started
-nav_order: 3
+nav_order: 2
 title: Website Setup
 ---
 
@@ -8,11 +8,13 @@ title: Website Setup
 
 **Goals**: Copy a GitHub repository template; Edit the repository's configuration file; Turn on GitHub Pages
 
+**Prerequisites**: [Learn Static GitHub Foundations Module](https://github.com/learn-static/foundations-0-github/blob/main/intro-github.md){:target="_blank" rel="noopener"}
+
 **Estimated Time to Complete**: 30 minutes
 
 ---
 
-Now that you've created a GitHub account and repository, you'll be working on GitHub to set up your project website. 
+Now that you've created a GitHub account, you'll be working on GitHub to set up your project website. 
 
 ## Step 1. Log in to GitHub
 

@@ -4,30 +4,21 @@ nav_order: 3
 title: Section Overview
 ---
 
-# Write Your Essay
+This section will introduce you to the file in which you'll be you'll be writing your multimedia essay, and provide instructions for writing for the web and including supporting documents into your essay.
 
-The "Write Your Essay" section will introduce you to the file in which you'll be you'll be writing your multimedia essay, provide instructions for writing for the web and including supporting documents into your essay.
+---
 
-## Prerequisites: 
+**Prerequisites:** 
 
 - Please complete the [Learn Static Markdown Foundations Module](https://github.com/learn-static/foundations-2-markdown/blob/main/intro-markdown.md) before starting this section.
 
-## Module Goals:
+**Goals:**
 
-Each module in this section accomplishes the following goals:
+- Navigate the essay web page
+- Add text to essay
+- Edit the essay's table of contents
+- Add footnotes
+- Include images and documents in essay
+- Customize the website's home page
 
-- [Locating Your Essay](/content/essay/essay-location.html): 
-    - Introduce the essay web page
-
-- [Writing in Markdown](/content/essay/markdown.html): 
-    - Add text to essay
-
-- [Formatting with Markdown](/content/essay/advanced-formatting.html): 
-    - Edit the essay's table of contents
-    - Add footnotes
-
-- [Including Primary Sources](/content/essay/includes.html): 
-    - Include images and documents in essay
-
-- [Customizing Your Website](/content/essay/customize.html): 
-    - Customize your website home page
+**Estimated Time to Complete:** 1 hour and 45 minutes

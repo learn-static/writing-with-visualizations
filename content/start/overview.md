@@ -4,23 +4,19 @@ nav_order: 2
 title: Section Overview
 ---
 
-# Get Started
+This section walks you through the technical process of setting up a GitHub Pages website. 
 
-The "Get Started" section is designed to walk you through the technical process of setting up a website on GitHub. 
+---
 
-## Prerequisites: 
+**Prerequisites:** 
 
 - Please complete the [Learn Static GitHub Foundations Module](https://github.com/learn-static/foundations-0-github) before starting this section.
 
-## Module Goals:
+**Goals:**
 
-Each module in this section accomplishes the following goals:
+- Copy a GitHub repository template
+- Edit the repository's configuration file
+- Turn on GitHub Pages
 
-- [Intro to GitHub](/content/start/github.html): 
-    - Create a GitHub account
-    - Create and edit a GitHub repository
+**Estimated Time to Complete:** 30 minutes
 
-- [Website Setup](/content/start/web-setup.html): 
-    - Copy a GitHub repository template
-    - Edit the repository's configuration file
-    - Turn on GitHub Pages
