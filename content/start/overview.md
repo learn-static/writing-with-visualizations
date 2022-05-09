@@ -1,7 +1,7 @@
 ---
 section_id: Get Started
 nav_order: 2
-title: Overview
+title: Section Overview
 ---
 
 # Get Started

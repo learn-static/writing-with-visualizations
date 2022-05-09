@@ -1,7 +1,7 @@
 ---
 section_id: For Instructors
 nav_order: 5
-title: Overview
+title: Section Overview
 ---
 
 # For Instructors
@@ -17,3 +17,7 @@ Each module in this section accomplishes the following goals:
 - [Multimedia Essay Assignment](/content/instructors/assignment.html)
 
 - [Resources](/content/instructors/resources.html)
+
+## ALIGNED STANDARDS/FRAMEWORK (Optional/Suggested)
+
+INSTRUCTIONS: It is optional and suggested to identify standards/frameworks/competencies that align with your learning sequence and define what learners should know and be able to do within a content area at specific stages in their education (for example, the [ACRL Framework for Information Literacy for Higher Education](https://www.ala.org/acrl/standards/ilframework) or [ISTE Standards](https://www.iste.org/standards/iste-standards-for-students)). 

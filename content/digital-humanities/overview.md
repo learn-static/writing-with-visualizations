@@ -1,7 +1,7 @@
 ---
 section_id: Explore DH Methods
 nav_order: 4
-title: Overview
+title: Section Overview
 ---
 
 # Explore DH Methods

@@ -1,18 +1,21 @@
 ---
 section: For Instructors
-nav_order: 4
+nav_order: 3
 title: Resources
 ---
 
-1. If you want to, you can draft your essay using a word processor like Microsoft Word, Libre Office, or Google Docs, and paste the text from that document into your `essay-01.md` file. Do note that you will need to do some work *after* you paste it to make sure that your visualizations are added, that you've translated your word processor's styling (**bold**, *italics*, hyperlinks, bullet points) into Markdown following the instructions from this week's lab and last week's lab, and that you've added your **citations** in Markdown following the [instructions above](#citations).
+The technologies listed below are those that enable the Oral History as Data project. We also created several modules to help students and instructors better work through these technologies and concepts in a tutorial format. Those modules are linked below:
+
+- <https://github.com/learn-static/foundations-0-github>{:target="_blank" rel="noopener"}
+- <https://github.com/learn-static/foundations-1-html>{:target="_blank" rel="noopener"}
+- <https://github.com/learn-static/foundations-2-markdown>{:target="_blank" rel="noopener"}
+- <https://github.com/learn-static/foundations-3-data>{:target="_blank" rel="noopener"}
+- <https://github.com/learn-static/foundations-4-computation>{:target="_blank" rel="noopener"}
+
+
+# Technologies
 
 To learn about using Lesson Template, the content pages of this demo provide documentation and examples (also check the [README](https://github.com/learn-static/lesson-template/blob/main/README.md)).
-
-Workshop sites using this template:
-
-- [Demo](https://learn-static.github.io/lesson-template/) (this repository) 
-
-# Reference
 
 ## Git & GitHub
 
