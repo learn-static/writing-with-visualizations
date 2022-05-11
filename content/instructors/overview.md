@@ -40,11 +40,13 @@ Following the instructions on this site, students will learn to navigate GitHub,
 
 2. Since this project's instructions ask each student to create their own multimedia essay website, your job as an instructor is to familiarize yourself with the steps that this documentation presents to students.
 
-3. This project asks students to incorporate supporting evidence into their web essays in the form of embedded images, documents, and visualizations. Often, these supporting objects will be primary sources. While the [Including Primary Sources](/content/essay/includes.html) section of this site contains suggested websites where students may find primary sources, you may want to curate your own list of sites that you'd like your students to use when looking for digitized primary source content.
+3. (optional) This project asks students to incorporate supporting evidence into their web essays in the form of embedded images, documents, and visualizations. Often, these supporting objects will be primary sources. While the [Including Primary Sources](/content/essay/includes.html) section of this site contains suggested websites where students may find primary sources, you may want to curate your own list of sites that you'd like your students to use when looking for digitized primary source content.
 
-4. The Digital Humanities section of this site uses demo data comprised of 20th-century State of the Union Addresses and Party Platforms. If you decide to use the Digital Humanities section, you will likely want to exchange the demo data for your own data. Instructions to do so may be found on the [Voyant Data](/content/instructors/voyant-data.html) and [Topic Modeling Data](/content/instructors/topic-data.html) pages of this section.
+4. (optional) If you'd like to tailor this documentation site to your class and project, you'll need to make a copy of this site's GitHub repository and customize your version of it. You may also find you need to customize the project template that your students copy their projects from, so that it contains prepped or customized data for analysis (note this is especially true if you are using the text analysis or topic modeling features of this module). If this is the case for you, follow the instructions on this section's [Create Template](/content/instructors/template.html) page.
 
-5. For additional learning resources see this section's [Resources](/content/instructors/resources.html) page (not required).
+5. (optional) The Digital Humanities section of this site uses demo data comprised of 20th-century State of the Union Addresses and Party Platforms. If you decide to use the Digital Humanities section, you will likely want to exchange the demo data for your own data. Instructions to do so may be found on the [Voyant Data](/content/instructors/voyant-data.html) and [Topic Modeling Data](/content/instructors/topic-data.html) pages of this section.
+
+6. (optional) For additional learning resources see this section's [Resources](/content/instructors/resources.html) page.
 
 ---
 
