@@ -20,22 +20,27 @@ Information on the number of iterations performed on each corpus can be found in
 The stopword list used for the State of the Union Address and Party Platform topic modeling is the Buckley-Salton stopword list, retrieved from Alan Liu's workshop at [http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt](http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt){:target="_blank" rel="noopener"}. 
 The Buckley-Salton stopword list was also used for the Party Platforms, with the addition of three words: america, american, and americans.
 
+---
+
 ## Prepare New Topic Data
 
 **Formatting Topic Data**
 
-When formatted topic data is added to the project template /_data/topics/ and /_data/documents/ folders, the Writing with Visualizations project template will automatically generate line graphs that show the percentage of each topic across all documents.
+When formatted topic data is added to the project template `/_data/topics/` and `/_data/documents/` folders, the Writing with Visualizations project template will automatically generate line graphs that show the percentage of each topic across all documents.
 
 You will need to upload:
 
 **A "Topic" CSV**
 
-A CSV containing the fields topic, tokencount, words, and topicname:
+A CSV containing values for the fields topic, tokencount, words, and topicname:
 
-topic: a number assigned by the topic modeling software to a particular cluster of words
-tokencount: the number of times the words in this topic appear in the corpus
-words: a set of words that the topic modeling software clustered together into a topic
-topicname: a name assigned to the topic by you or your students.
+The first row should contain field names, like so: `topic,tokencount,words,topicname`.
+Following rows should contain the following information in each column:
+
+- `topic`: a number assigned by the topic modeling software to a particular cluster of words
+- `tokencount`: the number of times the words in this topic appear in the corpus
+- `words`: a set of words that the topic modeling software clustered together into a topic
+- `topicname`: a name assigned to the topic by you or your students.
 
 Example:
 
@@ -46,15 +51,17 @@ topic,tokencount,words,topicname
 2,31823,"states united department year foreign court secretary trade canal commission",
 ```
 
-Upload this topic CSV to your project template repository's /_data/topics/ folder.
+Upload this topic CSV to your project template repository's `/_data/topics/` folder.
 
 **A "Document" CSV**
 
 Next, you will need to upload a CSV containing data on how often a topic appears in each document.
 
-The field names of this spreadsheet should be `id,0,1,2,3,4,5,6,7,8,9`, where id is the document's id and the topic numbers 0-9 correspond to the values of the topic field in the CSV that you just created before this step.
+The field names of this spreadsheet should be `id,0,1,2,3,4,5,6,7,8,9`, where id is the document's id and the topic numbers 0-9 correspond to the values of the topic field in "Topics" CSV (the one you just created in the previous step).
 You can use more than 10 topics if you'd like.
-We've picked 0-10 for demo purposes.
+We've used 10 for demo purposes.
+
+Below the field names, each row begins with a document id, followed by the percentage that each column's topic appears in the document.
 
 Example:
 
@@ -64,7 +71,7 @@ id,0,1,2,3,4,5,6,7,8,9
 1901-Theodore-Roosevelt,0.12079876,0.099325726,0.03003112,0.0046680498,0.042738589,0.067997925,0.017064315,0.0038381743,0,0.032105809
 ```
 
-Upload this topic CSV to your project template repository's /_data/documents/ folder.
+Upload this topic CSV to your project template repository's `/_data/documents/` folder.
 
 **Topic Modeling**
 
@@ -77,7 +84,7 @@ You'll just need to format your topic data output in the format specified above 
 
 [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"} provides a light-weight option for topic modeling in-browser, without requiring any software installation. 
 
-To prepare your corpus for topic modeling with jsLDA, create a TSV (tab-separated values) file that contains each document as a row, formatted like so:
+To prepare your corpus for topic modeling with jsLDA, create a TSV (tab-separated values) file that contains each document as a row, formatted like this:
 
 `[doc ID] [tab] [label] [tab] [text...]`
 
@@ -93,15 +100,27 @@ Note that there is no row containing field names.
 When your TSV is formatted, go to [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"} and follow these steps:
 
 1. Click the "Run a model" button.
-2. On the right side of the webpage, look for the "Use a different collection" box, in grey. 
-3. Click the "Browse" button to the right of "Documents."
-4. Upload your prepared TSV.
-5. If using a stopword list,  Click the "Browse" button to the right of "Stoplist," and upload your stopword list.
-6. Click the "Upload" button.
-8. In the top right of the webpage, adjust the amount of topics you'd like to output (default is 25).
-7. In the top left of the webpage, click the "Run 50 iterations" button. Topic numbers and words will display on the left side of the window, and previews of the documents with the highest topic weight will display in the middle of the window. Click on various topics to see their associated previews. 
-8. Click the "Run 50 iterations" button as many times as needed to complete your desired number of iterations. Note: see the [_data/topic-data.csv](https://github.com/learn-static/text-analysis/blob/main/_data/topic-data.csv){:target="_blank" rel="noopener"} spreadsheet in the project template's GitHub repository for information on number of topics and iterations used for the demo data. 
-9. When ready to download, click the "Downloads" button in the top right of the webpage, then select "Document topics" and "Topic summaries" to export both files. "Topic summaries" will become the file you add to your repository's /_data/topics/ folder, while "Document topics" will become the file you add to your repository's /_data/documents/ folder, but first you'll need to make the following edits.
-10. Rename 
-- add fieldname row to the top of documents (id,0,1,2,3,4,5,6,7,8,9)
 
+2. On the right side of the webpage, look for the "Use a different collection" box, in grey. 
+
+3. Click the "Browse" button to the right of "Documents."
+
+4. Upload your prepared TSV.
+
+5. If using a stopword list,  Click the "Browse" button to the right of "Stoplist," and upload your stopword list.
+
+6. Click the "Upload" button.
+
+8. In the top right of the webpage, adjust the amount of topics you'd like to output (default is 25).
+
+7. In the top left of the webpage, click the "Run 50 iterations" button. Topic numbers and words will display on the left side of the window, and previews of the documents with the highest topic weight will display in the middle of the window. Click on various topics to see their associated previews. 
+
+8. Click the "Run 50 iterations" button as many times as needed to complete your desired number of iterations. Note: see the [_data/topic-data.csv](https://github.com/learn-static/text-analysis/blob/main/_data/topic-data.csv){:target="_blank" rel="noopener"} spreadsheet in the project template's GitHub repository for information on number of topics and iterations used for the demo data. 
+
+9. When ready to download, click the "Downloads" button in the top right of the webpage, then select "Document topics" and "Topic summaries" to export both files. "Topic summaries" will become the file you add to your repository's `/_data/topics/` folder, while "Document topics" will become the file you add to your repository's `/_data/documents/` folder, but first you'll need to make the following edits.
+
+10. Edit the first row of the "Topic summaries" file to be `topic,tokencount,words,topicname`.
+
+11. Add a row to the top of the "Document topics" file, and add to this row the field names `id,0,1,2,3,4,5,6,7,8,9...`, where the numbers correspond to the topic numbers in the "Topic summaries" file.
+
+12. Rename both files, then deposit the topics file in the project repository's `/_data/topics/` folder, and the documents file in the `/_data/documents/` folder.
