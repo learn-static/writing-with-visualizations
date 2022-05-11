@@ -20,7 +20,7 @@ To get started as an instructor, go to the [For Instructors Project Overview Pag
 **Students will follow these steps:**
 
 - Work through the Learn-Static [GitHub Foundations Module](https://github.com/learn-static/foundations-0-github/blob/main/intro-github.md) and [Markdown Foundations Module](https://github.com/learn-static/foundations-2-markdown/blob/main/intro-markdown.md)
-- Copy and GitHub repository and turn on GitHub Pages
+- Copy a GitHub repository and turn on GitHub Pages
 - Write and format an web essay using Markdown
 - Locate and incorporate supporting evidence into your essay in the form of primary source images and documents
 - **Optional:** Explore a corpus of text in Voyant Tools and incorporate visualizations into your web essay
