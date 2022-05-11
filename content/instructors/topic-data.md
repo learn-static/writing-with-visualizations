@@ -20,8 +20,41 @@ Information on the number of iterations performed on each corpus can be found in
 The stopword list used for the State of the Union Address topic modeling and analysis is the Buckley-Salton stopword list, retrieved from Alan Liu workshop at [http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt](http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt){:target="_blank" rel="noopener"}. 
 The Buckley-Salton stopword list was also used for the Party Platforms, with the addition of three words: america, american, and americans.
 
-Note that you can use any topic-modeling software in place of jsLDA to do your analysis.
-Ultimately, your topic data just needs to be in the format specified below in order to generate topic graphs.
+## Prepare New Topic Data
+
+**Topic Data Format**
+
+When formatted topic data is added to the project template /_data/topics/ and /_data/documents/ folders, the Writing with Visualizations project template will automatically generate line graphs that show the percentage of each topic across all documents.
+
+You will need:
+
+A CSV containing the fields topic, tokencount, words, and topicname:
+
+topic: a number assigned by the topic modeling software to a particular cluster of words
+tokencount: the number of times the words in this topic appear in the corpus
+words: a set of words that the topic modeling software clustered together into a topic
+topicname: a name assigned to the topic by you or your students.
+
+Example:
+
+```
+topic,tokencount,words,topicname
+0,45231,"law country made government service navy commerce officers proper duty",
+1,25734,"men great man business power public good work labor conditions",labor in America
+2,31823,"states united department year foreign court secretary trade canal commission",
+```
+
+Upload this topic CSV to your project template repository's /_data/topics/ folder.
+
+Next, you will need A CSV containing data on how often a topic appears in a given document.
+The fields of this spreadsheet should be `id,0,1,2,3,4,5,6,7,8,9`, where id is the document's id and the topic numbers 0-9 correspond to the values of the topic CSV that you just created before this step.
+You can use more than 10 topics if you'd like.
+We've picked 0-10 for demo purposes.
+
+We've used jsLDA to format the demo data, but note that you can use any topic-modeling software in place of jsLDA to do your analysis.
+Ultimately, your topic data just needs to be in the format specified above in order to generate topic graphs.
+
+
 
 To prepare the demo corpus for topic modeling with [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"}, first format
 
