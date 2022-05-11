@@ -17,16 +17,18 @@ Only Democratic and Republican parties were included in our 20th-century Party P
 Topic modeling was performed on our demo corpus using the [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"} tool by David Mimno. 
 Information on the number of iterations performed on each corpus can be found in the project template's GitHub repository at [_data/topic-data.csv](https://github.com/learn-static/text-analysis/blob/main/_data/topic-data.csv){:target="_blank" rel="noopener"} spreadsheet.
 
-The stopword list used for the State of the Union Address topic modeling and analysis is the Buckley-Salton stopword list, retrieved from Alan Liu workshop at [http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt](http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt){:target="_blank" rel="noopener"}. 
+The stopword list used for the State of the Union Address and Party Platform topic modeling is the Buckley-Salton stopword list, retrieved from Alan Liu's workshop at [http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt](http://dhworkshop.pbworks.com/w/file/105416844/Buckley-Salton-stopword-list.txt){:target="_blank" rel="noopener"}. 
 The Buckley-Salton stopword list was also used for the Party Platforms, with the addition of three words: america, american, and americans.
 
 ## Prepare New Topic Data
 
-**Topic Data Format**
+**Formatting Topic Data**
 
 When formatted topic data is added to the project template /_data/topics/ and /_data/documents/ folders, the Writing with Visualizations project template will automatically generate line graphs that show the percentage of each topic across all documents.
 
-You will need:
+You will need to upload:
+
+**A "Topic" CSV**
 
 A CSV containing the fields topic, tokencount, words, and topicname:
 
@@ -46,41 +48,60 @@ topic,tokencount,words,topicname
 
 Upload this topic CSV to your project template repository's /_data/topics/ folder.
 
-Next, you will need A CSV containing data on how often a topic appears in a given document.
-The fields of this spreadsheet should be `id,0,1,2,3,4,5,6,7,8,9`, where id is the document's id and the topic numbers 0-9 correspond to the values of the topic CSV that you just created before this step.
+**A "Document" CSV**
+
+Next, you will need to upload a CSV containing data on how often a topic appears in each document.
+
+The field names of this spreadsheet should be `id,0,1,2,3,4,5,6,7,8,9`, where id is the document's id and the topic numbers 0-9 correspond to the values of the topic field in the CSV that you just created before this step.
 You can use more than 10 topics if you'd like.
 We've picked 0-10 for demo purposes.
 
-We've used jsLDA to format the demo data, but note that you can use any topic-modeling software in place of jsLDA to do your analysis.
-Ultimately, your topic data just needs to be in the format specified above in order to generate topic graphs.
-
-
-
-To prepare the demo corpus for topic modeling with [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"}, first format
+Example:
 
 ```
-id,date,text
-1900-William-McKinley,1900,"Fourth Annual Message: To the Senate and House of Representatives: At the outgoing of the old and the incoming of the new century you begin the last session of the Fifty-sixth Congress with evidences on every hand of individual and national prosperity and with proof of the growing strength and increasing power for good of republican institutions. [See APP Note.] Your countrymen will join with you in felicitation that American liberty is more firmly established than ever before, and that love for it and the determination to preserve it are more universal than at any former period of our history. The Republic was never so strong, because never so strongly entrenched in the hearts of the people as now. The Constitution, with few amendments, exists as it left the hands of its authors. The additions which have been made to it proclaim larger freedom and more extended citizenship. Popular government has demonstrated in its one hundred and twenty-four years of trial here its stability and security, and its efficiency as the best instrument of national development and the best safeguard to human rights. When the Sixth Congress assembled in November, 1800, the population of the United States was 5,308,483.It is now 76,304,799. Then we had sixteen States. Now we have forty-five. Then our territory consisted Of 909,050 square miles. It is now 3,846,595 square miles. Education, religion, and morality have kept pace with our advancement in other directions, and while extending its power the Government has adhered to its foundation principles and abated none of them in dealing with our new peoples and possessions."
-1901-Theodore-Roosevelt,1901,"First Annual Message: To the Senate and House of Representatives: The Congress assembles this year under the shadow of a great calamity. On the sixth of September, President McKinley was shot by an anarchist while attending the Pan-American Exposition at Buffalo, and died in that city on the fourteenth of that month. Of the last seven elected Presidents, he is the third who has been murdered, and the bare recital of this fact is sufficient to justify grave alarm among all loyal American citizens. Moreover, the circumstances of this, the third assassination of an American President, have a peculiarly sinister significance. Both President Lincoln and President Garfield were killed by assassins of types unfortunately not uncommon in history; President Lincoln falling a victim to the terrible passions aroused by four years of civil war, and President Garfield to the revengeful vanity of a disappointed office-seeker."
+id,0,1,2,3,4,5,6,7,8,9
+1900-William-McKinley,0.12146954,0.024239801,0.14792771,0.0016773077,0.064062331,0.058327021,0.010280273,0.0019478411,0.002326588,0.023969267
+1901-Theodore-Roosevelt,0.12079876,0.099325726,0.03003112,0.0046680498,0.042738589,0.067997925,0.017064315,0.0038381743,0,0.032105809
 ```
 
-, we split each State of the Union Address and Party Platform into its own text file, then uploaded all of the State of the Union text files into one instance of Voyant, and all of the Party Platform text files into another instance of Voyant.
-To view these text files, see the [/assets/data/state-of-the-union/txt/](https://github.com/learn-static/text-analysis/tree/main/assets/data/state-of-the-union/txt/) folder and [/assets/data/party-platforms/txt/](https://github.com/learn-static/text-analysis/tree/main/assets/data/party-platforms/txt/) folder in the project template's GitHub repository.
+Upload this topic CSV to your project template repository's /_data/documents/ folder.
 
-We then added links to these Voyant instances (one with State of the Union files and one with Party Platform files) to the documentation's [Voyant](/content/digital-humanities/voyant.html) page as buttons, so that students can link out to them easily.
+**Topic Modeling**
 
-As an alternative to pre-loading the text into Voyant, if time allows you could choose instead to teach students how to upload the requisite text files to the Voyant home page themselves.
+You can use any topic-modeling software to do your analysis.
+You'll just need to format your topic data output in the format specified above in order for the site to generate topic graphs.
 
-## Prepare New Topic Data
+---
 
-1. Obtain and clean a body of text that you'd like your students to analyze.
+## Topic Modeling with jsLDA
 
-2. Break the text into "documents" according to how you'd like to analyze it (documents are "segments of text" -- they can be paragraphs, chapters, books, speeches, etc.). Each document should be separated into its own text file.
+[jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"} provides a light-weight option for topic modeling in-browser, without requiring any software installation. 
 
-3. **Either** teach students how to load the documents into the [Voyant Tools Home Page](https://voyant-tools.org/), **Or** upload the documents into the [Voyant Tools Home Page](https://voyant-tools.org/) yourself, then copy and distribute the URL of the visualization page that Voyant generates to your students. (Note that if you've already copied [this documentation repository](https://github.com/learn-static/writing-with-visualizations) to create a customized version of this learning sequence, you can replace the current button links in the [Voyant page](/content/digital-humanities/voyant.html) of this documentation site with your new links. Simply locate the three "button includes" on the page--which look like this: 
+To prepare your corpus for topic modeling with jsLDA, create a TSV (tab-separated values) file that contains each document as a row, formatted like so:
+
+`[doc ID] [tab] [label] [tab] [text...]`
+
+In the example below, the document's filename is used for the "doc ID" value, and the date is used as the "label" value:
+
 ```
-{% raw %}{% include button.html text="20th-Century State of the Union Addresses" link="https://voyant-tools.org/?corpus=3331b9ec3186b714ca53835d5b3ed722" color="success" %}{% endraw %}
+1900-William-McKinley	1900	"Fourth Annual Message: To the Senate and House of Representatives: At the outgoing of the old and the incoming of the new century you begin the last session of the Fifty-sixth Congress with evidences on every hand of individual and national prosperity and with proof of the growing strength and increasing power for good of republican institutions."
+1901-Theodore-Roosevelt	1901	"First Annual Message: To the Senate and House of Representatives: The Congress assembles this year under the shadow of a great calamity. On the sixth of September, President McKinley was shot by an anarchist while attending the Pan-American Exposition at Buffalo, and died in that city on the fourteenth of that month."
 ```
---and replace the "text" and "link" values with your own).
 
-4. Once they're viewing the requisite text in Voyant, students can proceed through this documentation's [Text Analysis with Voyant](/content/digital-humanities/voyant.html) and [Export an Image from Voyant](/content/digital-humanities/voyant-export.html) pages.
+Note that there is no row containing field names.
+
+When your TSV is formatted, go to [jsLDA](https://mimno.infosci.cornell.edu/jsLDA/){:target="_blank" rel="noopener"} and follow these steps:
+
+1. Click the "Run a model" button.
+2. On the right side of the webpage, look for the "Use a different collection" box, in grey. 
+3. Click the "Browse" button to the right of "Documents."
+4. Upload your prepared TSV.
+5. If using a stopword list,  Click the "Browse" button to the right of "Stoplist," and upload your stopword list.
+6. Click the "Upload" button.
+8. In the top right of the webpage, adjust the amount of topics you'd like to output (default is 25).
+7. In the top left of the webpage, click the "Run 50 iterations" button. Topic numbers and words will display on the left side of the window, and previews of the documents with the highest topic weight will display in the middle of the window. Click on various topics to see their associated previews. 
+8. Click the "Run 50 iterations" button as many times as needed to complete your desired number of iterations. Note: see the [_data/topic-data.csv](https://github.com/learn-static/text-analysis/blob/main/_data/topic-data.csv){:target="_blank" rel="noopener"} spreadsheet in the project template's GitHub repository for information on number of topics and iterations used for the demo data. 
+9. When ready to download, click the "Downloads" button in the top right of the webpage, then select "Document topics" and "Topic summaries" to export both files. "Topic summaries" will become the file you add to your repository's /_data/topics/ folder, while "Document topics" will become the file you add to your repository's /_data/documents/ folder, but first you'll need to make the following edits.
+10. Rename 
+- add fieldname row to the top of documents (id,0,1,2,3,4,5,6,7,8,9)
+

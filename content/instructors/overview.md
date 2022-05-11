@@ -20,7 +20,7 @@ This section provides information for instructors regarding how to incorporate t
 
 The Writing with Visualizations learning sequence is intended for an audience of undergraduate and graduate students or faculty, and may be taught in an extended workshop or classroom setting.
 
-**What will students create?:**
+**What will students create?**
 
 Following the instructions on this site, students will learn to navigate GitHub, gain an introduction to Digital Humanities (DH), text analysis, and topic modeling, and produce a multi-media essay via a GitHub Pages website that incorporates text interwoven with images, pdfs, videos, and DH visualizations.
 
