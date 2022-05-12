@@ -125,7 +125,7 @@ This will generate a box that appears beneath the form, titled "Include code," a
 
 `{% raw %}{% include feature/image.html filename="sotu-word-cloud.png" alt="image of a word cloud generated from corpus of 20th century State of the Union Addresses" width="50" %}{% endraw %}`
 
-Copy **all** of the pink include text (brackets and all), then follow these steps to paste it into your `essay-01.md` file:
+Copy **all** of the pink include text (brackets and all), then follow these steps to paste it into your `essay.md` file:
 
 1. Click over to the browser tab that holds your GitHub repository, and navigate to the homepage of your GitHub repository by clicking on the <> Code tab above your repository files.
 

@@ -29,11 +29,13 @@ title: Writing in Markdown
 
 ---
 
-## Step 3. Delete Demo Material
+## Step 3. Locate your essay.md file
 
-1. In your GitHub repository, locate and click on the "pages" folder.  
-2. Inside the "pages" folder, click on the file titled "essay-01.md." Then select the pencil button in the top right corner of the `essay.md` file to open editing mode. 
-5. Once in editing mode, **delete the content on lines 12 through 19**. This will remove most of the demo material, leaving a template that looks like this:
+1. Navigate to the browser tab/window that contains your GitHub repository.
+3. In your GitHub repository, locate and click on the "pages" folder.
+4. Inside the "pages" folder, click on the file titled "essay.md." Then select the pencil button in the top right corner of the `essay.md` file to open editing mode. 
+
+The content of the `essay.md` file should look like this:
 
 ```
 ---
@@ -42,29 +44,19 @@ layout: about
 permalink: /essay.html
 ---
 
-{% raw %}{% include feature/nav-menu.html sections="Introduction;Conclusion;Notes" %}{% endraw %}
+{% raw %}{% include feature/nav-menu.html sections="Introduction;Conclusion;Notes" %}{% endraw %}]
 
 # My Essay Title
 
 ## Introduction
 
-Here's some sample text, written in Markdown.
-In Markdown, any text with no empty lines between will become a paragraph.
-
-Include an image:
-
-{% raw %}{% include feature/image.html filename="demo_001.jpg" alt="image of UI Admin building" caption="Historic photo of the University of Idaho campus" width="50" %}{% endraw %}
-
 ## Conclusion
-
-More documentation on how to write your essay in Markdown--as well as how to include images, pdfs, and topic visualizations--can be found at <https://learn-static.github.io/hist-320/topic-modeling.html>.
 
 ## Notes
 
-[^1]: Katie Kitamura, A Separation (New York: Riverhead Books, 2017), 25.
 ```
 
-Below, we will discuss each component of this document.
+Below, we will discuss how to add your text content to this document.
 
 ---
 
@@ -125,7 +117,7 @@ Again, the asterisks won't be visible on your webpage, but your text will appear
 ### Hyperlinks
 
 To link to another page or site, insert the link title (what you want displayed to the site visitors) into square brackets, followed by a URL in parentheses: 
-`[GitHub Help](https://help.github.com/)` in your `essay-01.md` file will look like [GitHub Help](https://help.github.com/) on your "Essay In Progress" webpage.
+`[GitHub Help](https://help.github.com/)` in your `essay.md` file will look like [GitHub Help](https://help.github.com/) on your "Essay In Progress" webpage.
 
 {:#lists}
 ### Lists
@@ -147,9 +139,9 @@ A numbered list is created using a number followed by a period (`.`) in front of
 
 ### Now try it yourself
 
-1. Click the pencil button at the top right of your `essay-01.md` file to open editing mode.
+1. Click the pencil button at the top right of your `essay.md` file to open editing mode.
 
-2. In your `essay-01.md` file, replace the words in the first heading `# My Essay Title` with a new title for your essay . Make sure you include one `#` in front of your essay title, like this: `# My New Essay Title`.
+2. In your `essay.md` file, replace the words in the first heading `# My Essay Title` with a new title for your essay . Make sure you include one `#` in front of your essay title, like this: `# My New Essay Title`.
 
 3. Create an empty line underneath the `## Introduction` heading. Under this empty line, add two or three sentences of text (the subject can be anything, related or unrelated to your essay topic, this is just for practice).
 

@@ -30,7 +30,7 @@ title: Formatting with Markdown
 ## Step 3. Essay Sections
 
 1. In your GitHub repository, locate and click on the "pages" folder.  
-2. Inside the "pages" folder, click on the file titled "essay-01.md." Then select the pencil button in the top right corner of the `essay.md` file to open editing mode. 
+2. Inside the "pages" folder, click on the file titled "essay.md." Then select the pencil button in the top right corner of the `essay.md` file to open editing mode. 
 
 To break your essay into sections (example: Introduction, Conclusion, etc.), you can title each of those sections using headings.
 
