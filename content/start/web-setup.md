@@ -20,6 +20,7 @@ Now that you've created a GitHub account, you'll be working on GitHub to set up 
 
 1. Go to <https://github.com>{:target='_blank' rel='noopener'} and sign in.
 
+{:#template}
 ## Step 2. Copy the project template repository
 
 Remember, a GitHub repository is a folder that stores a project's files and keeps track of changes to those files over time.
