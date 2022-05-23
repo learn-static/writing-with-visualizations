@@ -34,9 +34,9 @@ title: Customizing Your Website
 
 3. `index.md` contains the text content written on the homepage of your project website! It's written in markdown, just like your essay (notice that the title is a heading 1?). This is an opportunity for you to add your own introduction to your site. It doesn't need to be long, think of it as a brief welcome to the imagined future users of your site, and a short description of what your research is about.
 
-4. When you're ready to write, delete the four paragraphs of stock content (starting with `This is the project site for the HIST 320...` and ending with `images into your essays`). Delete these four paragraphs, and add your own introduction in their place.
+4. When you're ready to write, delete the four paragraphs of stock content (starting with `Instructions for how to use this site to write your multimedia essay...` and ending with `images into your essays`). Delete these four paragraphs, and add your own introduction in their place.
 
-5. Replace the heading `# Digital History Project` with your own title for your homepage.
+5. Replace the heading `# Writing with Visualizations` with your own title for your homepage.
 
 6. Remember **DO NOT** alter the front matter that exists at the very top of the page (lines 1-6). Leave the front matter exactly as it is, otherwise your site will not work correctly.
 

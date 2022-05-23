@@ -29,7 +29,7 @@ Let's copy our "Writing with Visualizations" project template repository to your
 1. Go to the [Writing with Visualizations](https://github.com/learn-static/text-analysis){:target="_blank" rel="noopener"} repository and locate and click on the green "Use This Template" button (appears on the top right side of the screen above the code area). Note that the "Use This Template" button only appears if you're logged into GitHub!
 2. This brings you to a "Create a new repository" form. Follow these steps:
     1. **Repository name**: Use a lowercase name without spaces or odd characters (no `$`, `#`, `@`, `?`, `!`, etc.). Hyphens (`-`) and underscores (`_`) are okay to use. Keep in mind that this repository name will become part of your project site's URL, so think through how it will look as a link!
-    2. In the **Description** text box, add a very brief description of your project, something like: `My digital history project for HIST 320`.
+    2. In the **Description** text box, add a very brief description of your project, something like: `My multimedia essay project`.
     3. Select the option for "**Public**" repository.
     4. Leave the "Include all branches" option **Unchecked**!
     5. Click on the green button titled "**Create repository from template**". This will take you to your new repository (note that it may take a few seconds to generate).
@@ -91,23 +91,23 @@ Now move on to the three values *below* `# SITE SETTINGS`, and fill them out:
 
 ### title: 
 
-- `title` is the title of your digital project. This will appear as the title on your website's home page, and on every other page's header and footer. Change the words `Analyzing Political Text of The 20th Century` to a title of your choice.
+- `title` is the title of your digital project. This will appear as the title on your website's home page, and on every other page's header and footer. Change the words `Writing with Visualizations` to a title of your choice.
 ```
-title: Analyzing Political Text of The 20th Century
+title: Writing with Visualizations
 ```
 
 ### tagline: 
 
-- `tagline` is an *optional* descriptive subtitle for the digital project. This will appear underneath the title on your site's home page and on every other page's header. Replace the words `A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho` with a tagline of your choice.
+- `tagline` is an *optional* descriptive subtitle for the digital project. This will appear underneath the title on your site's home page and on every other page's header. Replace the words `Create a multimedia essay webpage and visualize historical text as data` with a tagline of your choice.
 ```
-tagline: A multimedia project for HIST 320, a Spring 2022 History course at the University of Idaho
+tagline: Create a multimedia essay webpage and visualize historical text as data
 ```
 
 ### author: 
 
-- `author` is you! The creator of the digital project. Use your GitHub username or your name. This will only appear in the site's meta tags and won't be visible on the site itself. Change the name `collectionbuilder` to your own name or username.
+- `author` is you! The creator of the digital project. Use your GitHub username or your name. This will only appear in the site's meta tags and won't be visible on the site itself. Change the name `owikle` to your own name or username.
 ```
-author: collectionbuilder
+author: owikle
 ```
 
 **That's it!**
